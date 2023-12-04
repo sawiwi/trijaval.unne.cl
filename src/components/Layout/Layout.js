@@ -6,6 +6,7 @@ import Properties from '../../pages/Properties/Properties';
 // import Property from '../../pages/Properties/Property';
 import About from '../../pages/About';
 import Head from '../../components/Head/Head';
+import Fab from '../../components/ButtonContact/Fab'
 
 const Layout = () => {
   return (
@@ -23,6 +24,7 @@ const Layout = () => {
       <Properties/>
       {/* <Property/> */}
       <About/>
+      <Fab/>
       {/* FOOTER PAGE */}
       <Footer />    
     </div>
